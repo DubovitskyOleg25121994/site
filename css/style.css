@@ -1,0 +1,258 @@
+body{
+font-family: 'Roboto', sans-serif;   
+}
+
+.conteiner{
+width: 1260px;
+
+margin: 0 auto;
+}
+
+hr{
+    background-color: #9B51E0;
+    border: none;
+    height: 5px;
+}
+
+#number1, #number2 {
+    position: absolute;
+}
+
+#number1{
+    top: 42px;
+    left: 26.3%;
+    background: #fff;
+    font-size: 24px;
+    
+    z-index: 2;
+}
+#number2{
+    top: 30px;
+    left: 25%;
+    background: #fff;
+    border: 3px solid #FFC740;
+    width: 50px;
+    height: 48px;
+    z-index: 1;
+}
+
+
+
+.menu{
+padding-top: 54px;
+padding-left: 149px;  
+width: 1004px;
+list-style: none;
+}
+
+.menu li{
+    
+    float:left;
+    margin: 0 20px 0 0;
+    background: #fff;
+    border-radius: 1px;
+    width: 123px;
+    text-align: center;
+    line-height: 47px;
+    margin-right: 0;
+}
+
+.menu a{
+    color: #000;
+    display: block;
+    height: 50px;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+
+    .menu a:hover{
+        background: #FFC740;
+        color: #fff;
+        border-radius: 1px;
+        transition: background 1s, color 1s;
+    }
+
+
+
+     .form-wrapper{
+       
+       padding-top: 25px;
+       width: 215px;
+       padding-left: 909px;
+     
+     }
+
+.form-wrapper input{
+float: left;
+width: 158px;
+height: 33px;
+border: 1px solid #6D3D99;
+
+}
+
+.form-wrapper button{
+    color: #fff;
+    position: relative;
+    float: left;
+    background: #9B51E0;
+    border: 1px solid #6D3D99;
+    width: 42px;
+    height: 37px;
+}
+
+
+.photo, .text__first h1, .text__first p{
+    position: absolute;
+}
+
+.photo{
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+
+.image{
+    top:10px;
+    left: 148.7px;
+    position: relative;
+    }
+    
+  .image h1{
+    color: #FFC740;
+    font-weight: normal;
+      font-size: 64px;
+    position	: absolute;
+	top		: 5px;
+	left		: 44px;
+	width		: 100%
+  } 
+  
+  .image p{
+      color: #fff;
+      font-weight: normal;
+      position: absolute;
+      top:210px;
+      left: 44px;
+      font-size: 14px;
+
+  }
+
+  .image button{
+      border: 1px solid #6D3D99;
+      width: 125px;
+      height: 34px;
+      background: #6D3D99;
+      top: 315px;
+      left: 45px;
+      position: absolute;
+      margin: 0 20px 0 0;
+  }
+
+  .image button a{
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+   
+.one{
+    padding-top: 30px;
+    padding-left: 160px;
+    font-size: 12px;
+    width: 300px;
+    height: 105px;
+}
+
+.two{
+    
+    padding-left: 10px;
+    padding-top: 30px;
+    font-size: 12px;
+    width: 300px;
+    height: 105px;  
+}
+
+.one, .two{
+    
+float: left;
+width: 40%;
+}
+
+.one img{
+  
+    border: 2px solid #FFC740; 
+   
+}
+
+.one p{
+    position: relative;
+    left: 10px;     
+}
+
+.two p {
+    position: relative;
+    left: 10px; 
+    
+}
+
+
+.three p{
+    position: relative;
+    left: 10px;     
+}
+
+.four p {
+    position: relative;
+    left: 10px; 
+    
+}
+
+.two img{
+      border: 2px solid #FFC740; 
+}
+
+
+.three{
+    padding-top: 80px;
+    padding-left: 160px;
+    font-size: 12px;
+    width: 300px;
+    height: 105px;
+}
+
+.four{
+    padding-top: 80px;
+    font-size: 12px;
+    width: 300px;
+    height: 105px;  
+}
+
+.three, .four{
+    
+float: left;
+width: 40%;
+}
+
+.one a{
+    color: #000;
+padding-left: 10px;
+}
+
+.two a{
+    color: #000;
+    padding-left: 10px; 
+}
+
+.three a{
+    color: #000;
+    padding-left: 10px;
+}
+
+.four a{
+    color: #000;
+    padding-left: 10px;  
+}
+
+
