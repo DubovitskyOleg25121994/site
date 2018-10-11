@@ -9,24 +9,19 @@ margin: 0 auto;
 
 /* LOGOTIP */
 
-.logo{
-  display: inline-block;
-}
 
-#number1, #number2 {
-position: absolute;
-}
-
-#number1{
-top: 42px;
-left: 183px;
+.number1{
+  position: relative;
+left: 90.1%;
+top: 22px;
 background: #fff;
 font-size: 24px;
 z-index: 2;
 }
-#number2{
+.number2{
+  position: relative;
+left: 3%;
 top: 30px;
-left: 157px;
 background: #fff;
 border: 3px solid #FFC740;
 width: 50px;
@@ -35,16 +30,22 @@ z-index: 1;
 }
 
 /* SEARCHER */
-
+.logo{
+display: inline-block;
+}
 
 .header{
-  margin-left: 926px;
-  display: inline-block;
-  margin-top: 30px;
+padding: 0;
+width: 79%;
+margin-left: 0;
+display: inline-block;
+margin-top: 0;
 }
 
 .form-wrapper{
-display: inline-block;
+left: 95%;
+top: -17px;
+position: relative;
 width: 215px;
 }
 
