@@ -402,6 +402,7 @@ body {
 }
 
 .img-frame {
+  width: 35px;
   border: 2px solid #c4c4c4;
 }
 
