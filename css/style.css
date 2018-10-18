@@ -207,6 +207,17 @@ body {
   text-transform: uppercase;
 }
 
+.post__shadows {
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 339.56px;
+  background-color: #000;
+  width: 984px;
+  background-color: #000;
+}
+
 /* TWO COLUMNS */
 
 .cards {
@@ -227,14 +238,14 @@ body {
 
 .title-1 {
   position: relative;
-  width: 92%;
+  width: 90%;
   border: 8px solid #6d3d99;
 }
 
 .title-2 {
   background: #ffc740;
   position: relative;
-  width: 92%;
+  width: 90%;
   border: 8px solid #ffc740;
 }
 
@@ -279,6 +290,8 @@ body {
 }
 
 .height_image {
+  width: 133px;
+  height: 133x;
   border: 2px solid #ffc740;
   padding: 2px;
 }
@@ -388,8 +401,14 @@ body {
   height: 17px;
 }
 
+.img-frame {
+  border: 2px solid #c4c4c4;
+}
+
+/* LINE CLIENTS */
+
 .fig {
-  width: 82%;
+  width: 84%;
   margin-left: 160px;
 }
 
